@@ -1,4 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     font-family: "Montserrat", sans-serif;
+}
+
+#carouselButton {
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;
+}
+
+#carouselButton:hover {
+    background-color: #222831;
+    transition: 0.4s;
+    transform: scale(1.1)
+}
+
+#navLink {
+    color: #393e46;
+}
+
+#navLink:hover {
+    transform: scale(1.1);
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+#navLink.active {
+    font-weight: 700;
+    border-bottom: 0.5px solid #dcdada;
 }

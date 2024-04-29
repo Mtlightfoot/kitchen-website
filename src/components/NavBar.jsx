@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { LinkContainer } from 'react-router-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
+import '../main.css'
 
 const styles = {
     navLink: {
@@ -19,10 +20,11 @@ const styles = {
     title: {
         padding: '0',
         margin: '0',
+        color: '#222831'
     },
     subtitle: {
         fontStyle: 'italic',
-        color: 'grey',
+        color: '#393e46',
         margin: '0'
     }
 };
@@ -38,19 +40,19 @@ function NavBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <LinkContainer to='/'>
-                            <Nav.Link>Home</Nav.Link>
+                            <Nav.Link id="navLink">Home</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/Kitchens'>
-                            <Nav.Link>Kitchens</Nav.Link>
+                            <Nav.Link id="navLink">Kitchens</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/Furniture'>
-                            <Nav.Link>Furniture</Nav.Link>
+                            <Nav.Link id="navLink">Furniture</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/Pricing'>
-                            <Nav.Link>Pricing</Nav.Link>
+                            <Nav.Link id="navLink">Pricing</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/ContactMe'>
-                            <Nav.Link>Contact Me</Nav.Link>
+                            <Nav.Link id="navLink">Contact Me</Nav.Link>
                         </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
