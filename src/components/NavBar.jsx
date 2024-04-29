@@ -15,7 +15,7 @@ const styles = {
         height: "60px",
     },
     navBar: {
-        height: '10vh',
+        minHeight: '10vh',
     },
     title: {
         padding: '0',
