@@ -1,11 +1,4 @@
-
-
-const styles = {
-    testText: {
-    //   color: "red",
-    },
-  };
-
+import HomeCarousel from '../components/Carousel'
 
 function Home() {
 
@@ -13,7 +6,7 @@ function Home() {
 
     return (
         <div>
-            <h1 style={styles.testText}>Home Page is here</h1>
+            <HomeCarousel />
         </div>
     )
 }

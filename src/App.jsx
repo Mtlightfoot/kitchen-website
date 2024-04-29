@@ -14,6 +14,9 @@ import React from 'react';
 // Component Imports
 import Navbar from "./components/NavBar";
 
+// Main CSS Import
+import './main.css'
+
 function App() {
 
   return (

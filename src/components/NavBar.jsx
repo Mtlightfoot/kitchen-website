@@ -2,8 +2,6 @@ import * as React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { NavLink } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -15,14 +13,26 @@ const styles = {
         letterSpacing: "2px",
         height: "60px",
     },
+    navBar: {
+        height: '10vh',
+    },
+    title: {
+        padding: '0',
+        margin: '0',
+    },
+    subtitle: {
+        fontStyle: 'italic',
+        color: 'grey',
+        margin: '0'
+    }
 };
 
 function NavBar() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body-tertiary" style={styles.navBar}>
             <Container>
                 <LinkContainer to='/'>
-                    <Navbar.Brand>React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand><h2 style={styles.title}>J.Lloyd Design</h2><h6 style={styles.subtitle}>Luxury Kitchens</h6></Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
