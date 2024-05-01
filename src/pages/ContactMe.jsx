@@ -14,16 +14,24 @@ const styles = {
     },
     button: {
         margin: "20px",
+        color: "#393e46",
+    },
+    subtitle: {
+        color: "#393e46"
     },
     card: {
-        border: "1px solid #222831",
+        border: "none",
         width: "80%",
         padding: "30px 0px",
         borderRadius: "0px",
-        boxShadow: "rgba(0, 0, 0, 0.3) 0px 0px 5px 0px"
+        boxShadow: "rgba(0, 0, 0, 0.3) 0px 0px 10px 0px",
+        backgroundColor: "#F8F9FA"
     },
     img: {
         width: "20%"
+    },
+    icon: {
+        width: "10%"
     }
 };
 
@@ -35,14 +43,14 @@ function ContactMe() {
             <Card style={styles.card} className="text-center">
                 <Card.Body>
                     <Card.Title style={styles.subtitle}>Use the options below to contact us</Card.Title>
-                    <Button className='m-3' id='contactMeButton' variant="primary">Email Address</Button>
-                    <Button className='m-3' id='contactMeButton' variant="primary">Phone Number</Button>
+                    <Button className='m-3' id='contactMeButton' variant="primary"><img style={styles.icon} className='me-2' src='../email-icon.png' alt='An icon representing email'></img> Email Address</Button>
+                    <Button className='m-3' id='contactMeButton' variant="primary"><img style={styles.icon} className='me-2' src='../phone-icon.png' alt='An icon representing phone'></img> Phone Number</Button>
                 </Card.Body>
             </Card>
             <Container className='d-flex align-items-center justify-content-center'>
-                <img style={styles.img} className='m-4' src="../neptune-logo.jpg" alt="The logo of the furniture and kitchen company Neptune" />
-                <img style={styles.img} className='m-4' src="" alt="The logo of another kitchen brand" />
-                <img style={styles.img} className='m-4' src="" alt="The logo of another kitchen brand" />
+                <img style={styles.img} className='m-5' src="../neptune-logo.jpg" alt="The logo of the furniture and kitchen company Neptune" />
+                <img style={styles.img} className='m-5' src="" alt="The logo of another kitchen brand" />
+                <img style={styles.img} className='m-5' src="" alt="The logo of another kitchen brand" />
             </Container>
         </Container>
     );
