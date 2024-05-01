@@ -19,6 +19,23 @@
     transform: scale(1.1)
 }
 
+#contactMeButton {
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px solid #222831;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;
+    color: #393e46;
+}
+
+#contactMeButton:hover {
+    background-color: #222831;
+    transition: 0.4s;
+    transform: scale(1.1);
+    color: white;
+}
+
 #navLink {
     color: #393e46;
 }
