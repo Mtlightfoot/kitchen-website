@@ -14,7 +14,11 @@ const styles = {
     },
     title2: {
         fontWeight: "600",
-        color: "white",
+        color: "white"
+    },
+    titleBox: {
+        backdropFilter: "blur(5px)",
+        padding: "5px",
     },
     button: {
         margin: "20px",
@@ -44,8 +48,10 @@ function ContactMe() {
     return (
         <Container style={styles.container} className='d-flex align-items-center justify-content-center flex-column'>
             <Card className='d-flex justify-content-center text-center align-items-center flex-column mb-4' id='contactMeImg' body>
-                <h1 style={styles.title2}>Contact Me</h1>
-                <p style={styles.subtitle}>Use the options below to get in contact with us.</p>
+                <div className="titleBox" style={styles.titleBox}>
+                    <h1 style={styles.title2}>Contact Me</h1>
+                    <p style={styles.subtitle}>Use the options below to get in contact with us.</p>
+                </div>
             </Card>
 
             <Container className='p-0 justify-content-center align-items-center'>
