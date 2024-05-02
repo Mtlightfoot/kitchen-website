@@ -46,7 +46,7 @@ function NavBar() {
                             <Nav.Link id="navLink">Kitchens</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/Furniture'>
-                            <Nav.Link id="navLink">Furniture</Nav.Link>
+                            <Nav.Link id="navLink">Our Work</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/Pricing'>
                             <Nav.Link id="navLink">Pricing</Nav.Link>

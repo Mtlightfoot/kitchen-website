@@ -50,3 +50,18 @@
     font-weight: 700;
     border-bottom: 0.5px solid #dcdada;
 }
+
+#contactMeImg {
+    background-image: url(../public/neptune-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 0px;
+    padding: 60px;
+}
+
+#socialButton:hover {
+    filter:invert();   
+    scale: 1.1; 
+
+}
