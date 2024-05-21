@@ -2,6 +2,7 @@ import * as React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { LinkContainer } from 'react-router-bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../main.css'
@@ -45,11 +46,23 @@ function NavBar() {
                         <LinkContainer to='/Kitchens'>
                             <Nav.Link id="navLink">Kitchens</Nav.Link>
                         </LinkContainer>
+
+
+                        <NavDropdown title="Furniture" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#/Bedrooms">Bedrooms</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Fitted Office</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Media Walls</NavDropdown.Item>
+                        </NavDropdown>
+
+                        <NavDropdown title="Services" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">Booking</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Design</NavDropdown.Item>
+                            <NavDropdown.Item href="#/Pricing">Pricing</NavDropdown.Item>
+                        </NavDropdown>
+
+
                         <LinkContainer to='/Furniture'>
                             <Nav.Link id="navLink">Our Work</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to='/Pricing'>
-                            <Nav.Link id="navLink">Pricing</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/ContactMe'>
                             <Nav.Link id="navLink">Contact Me</Nav.Link>

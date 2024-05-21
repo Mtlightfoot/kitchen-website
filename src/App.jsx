@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 // Page imports
 import Home from './pages/Home';
 import Kitchens from './pages/Kitchens';
-import Furniture from './pages/Furniture';
+import Bedrooms from './pages/Bedrooms';
 import Pricing from './pages/Pricing';
 import ContactMe from "./pages/ContactMe";
 
@@ -26,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Kitchens" element={<Kitchens />} />
-          <Route path="/Furniture" element={<Furniture />} />
+          <Route path="/Bedrooms" element={<Bedrooms />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/ContactMe" element={<ContactMe />} />
         </Routes>
