@@ -48,7 +48,7 @@ function Kitchens() {
                 <Container>
                     <Row className='mb-5'>
                         <Col md={4}>
-                            <Card>
+                            <Card className='mb-3'>
                                 <Card.Img className='.card-img-top' variant="top" src="../kitchen-pic-2.jpg" />
                                 <Card.Body>
                                     <Card.Title>Full Kitchen installations</Card.Title>
@@ -62,7 +62,7 @@ function Kitchens() {
                         </Col>
 
                         <Col md={4}>
-                            <Card>
+                            <Card className='mb-3'>
                                 <Card.Img className='.card-img-top' variant="top" src="kitchen-pic-3.jpg" />
                                 <Card.Body>
                                     <Card.Title>Quality Workmanship</Card.Title>
@@ -76,7 +76,7 @@ function Kitchens() {
                         </Col>
 
                         <Col md={4}>
-                            <Card>
+                            <Card className='mb-3'>
                                 <Card.Img className='.card-img-top' variant="top" src="kitchen-pic-7.jpg" />
                                 <Card.Body>
                                     <Card.Title>Exceptional Service</Card.Title>
