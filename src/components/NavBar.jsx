@@ -61,7 +61,7 @@ function NavBar() {
                         </NavDropdown>
 
 
-                        <LinkContainer to='/Furniture'>
+                        <LinkContainer to='/OurWork'>
                             <Nav.Link id="navLink">Our Work</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/ContactMe'>

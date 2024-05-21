@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { LinkContainer } from 'react-router-bootstrap'
+
 import '../main.css';
 
 const styles = {
@@ -41,7 +43,10 @@ function Kitchens() {
                         <Card.Text>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed nostrum fugit vel, rerum iusto pariatur sit esse voluptates laudantium ex possimus odit itaque. Fugit magni veniam exercitationem reprehenderit dolorum rem.
                         </Card.Text>
-                        <Button id='contactMeButton' variant="primary">View more kitchens in the Gallery</Button>
+                        <LinkContainer to='/OurWork'>
+                            <Button id='contactMeButton' variant="primary">View our work in the Gallery</Button>
+                        </LinkContainer>
+
                     </Card.Body>
                 </Card>
 

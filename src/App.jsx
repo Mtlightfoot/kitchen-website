@@ -7,6 +7,7 @@ import Kitchens from './pages/Kitchens';
 import Bedrooms from './pages/Bedrooms';
 import Pricing from './pages/Pricing';
 import ContactMe from "./pages/ContactMe";
+import OurWork from "./pages/OurWork";
 
 // React imports
 import React from 'react';
@@ -28,6 +29,7 @@ function App() {
           <Route path="/Kitchens" element={<Kitchens />} />
           <Route path="/Bedrooms" element={<Bedrooms />} />
           <Route path="/Pricing" element={<Pricing />} />
+          <Route path="/OurWork" element={<OurWork />} />
           <Route path="/ContactMe" element={<ContactMe />} />
         </Routes>
       </div>
