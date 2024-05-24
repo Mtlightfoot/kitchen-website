@@ -14,7 +14,8 @@ const styles = {
         objectFit: 'cover'
     },
     paragraph: {
-        marginTop: '7px'
+        marginTop: '7px',
+        color: "#F1F1EC"
     }
 };
 

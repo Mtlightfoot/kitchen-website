@@ -20,14 +20,16 @@ const styles = {
         height: "50%"
     },
     noBorder: {
-        border: "none"
+        border: "none",
+        color: "#45523E",
+        backgroundColor: "transparent"
     },
     border: {
         border: "1px solid black"
     }
 }
 
-function Bedrooms() {
+function Furniture() {
 
 
 
@@ -51,43 +53,43 @@ function Bedrooms() {
                 <Container>
                     <Row className='mb-5'>
                         <Col md={4}>
-                            <Card className='mb-3'>
+                            <Card className='mb-3' id='card'>
                                 <Card.Img className='.card-img-top' variant="top" src="../bedroom-pic-1.jpg" />
                                 <Card.Body>
-                                    <Card.Title>Bedroom Furniture</Card.Title>
+                                    <Card.Title>Fitted Bedrooms</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.
+                                        <p>Transform your bedroom into a serene retreat with our bespoke fitted bedrooms. Our expert craftsmen design fitted wardrobes, custom dressers, and elegant storage solutions that maximize space while enhancing the beauty of your bedroom. </p>
+                                        Each piece is made to measure, ensuring a perfect fit and a cohesive look. With a variety of finishes and styles to choose from, your fitted bedroom will be a perfect blend of functionality and sophistication.
+
                                     </Card.Text>
-                                    <Button id='contactMeButton' variant="primary">Go somewhere</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
 
                         <Col md={4}>
-                            <Card className='mb-3'>
+                            <Card className='mb-3' id='card'>
                                 <Card.Img className='.card-img-top' variant="top" src="bedroom-pic-2.jpg" />
                                 <Card.Body>
-                                    <Card.Title>Quality Workmanship</Card.Title>
+                                    <Card.Title>Custom Office Furniture</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.
+                                        <p>In today's work-from-home environment, a well-designed office is more important than ever. Our custom office furniture solutions include bespoke desks, ergonomic seating, and efficient storage, all designed to boost productivity and comfort. </p>
+                                        Whether you need a complete office setup or a single statement piece, we create furniture that combines style with practicality.
+
                                     </Card.Text>
-                                    <Button id='contactMeButton' variant="primary">Go somewhere</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
 
                         <Col md={4}>
-                            <Card className='mb-3'>
+                            <Card className='mb-3' id='card'>
                                 <Card.Img className='.card-img-top' variant="top" src="bedroom-pic-3.jpg" />
                                 <Card.Body>
-                                    <Card.Title>Exceptional Service</Card.Title>
+                                    <Card.Title>Custom Media Walls</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.
+                                        <p>Enhance your living room with our custom media walls, designed to integrate seamlessly with your lifestyle and decor. Our media walls provide a stylish and functional centerpiece for your home, perfectly housing your television, audio equipment, and decorative items. </p>
+                                        We offer a range of designs, from contemporary minimalism to classic elegance, ensuring your media wall complements your space beautifully. Every custom media wall is crafted with precision and attention to detail, using high-quality materials for a durable and aesthetically pleasing finish.
+
                                     </Card.Text>
-                                    <Button id='contactMeButton' variant="primary">Go somewhere</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -99,4 +101,4 @@ function Bedrooms() {
     )
 }
 
-export default Bedrooms;
+export default Furniture;

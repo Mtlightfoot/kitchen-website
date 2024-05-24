@@ -21,21 +21,21 @@ const styles = {
     title: {
         padding: '0',
         margin: '0',
-        color: '#222831'
+        color: '#45523E'
     },
     subtitle: {
         fontStyle: 'italic',
-        color: '#393e46',
+        color: '#45523E',
         margin: '0'
     }
 };
 
 function NavBar() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary" style={styles.navBar}>
+        <Navbar expand="lg" className="bg-body-tertiary" style={styles.navBar} id="navbar-bg">
             <Container>
                 <LinkContainer to='/'>
-                    <Navbar.Brand><h2 style={styles.title}>J.Lloyd Design</h2><h6 style={styles.subtitle}>Luxury Kitchens - 07555 304240</h6></Navbar.Brand>
+                    <Navbar.Brand><h2 style={styles.title}>ForestWood Design</h2><h6 style={styles.subtitle}>Luxury Kitchens - 07555 304240</h6></Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -46,13 +46,9 @@ function NavBar() {
                         <LinkContainer to='/Kitchens'>
                             <Nav.Link id="navLink">Kitchens</Nav.Link>
                         </LinkContainer>
-
-
-                        <NavDropdown title="Furniture" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#/Bedrooms">Bedrooms</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Fitted Office</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Media Walls</NavDropdown.Item>
-                        </NavDropdown>
+                        <LinkContainer to='/Furniture'>
+                            <Nav.Link id="navLink">Furniture</Nav.Link>
+                        </LinkContainer>
 
                         <NavDropdown title="Services" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Booking</NavDropdown.Item>

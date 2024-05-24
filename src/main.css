@@ -4,35 +4,46 @@
     font-family: "Montserrat", sans-serif;
 }
 
+#page-bg {
+    background-color: #FFFFFF;
+}
+
+#navbar-bg {
+    background-color: #F1F1EC !important;
+    color: #45523E !important;
+}
+
 #carouselButton {
-    background-color: transparent;
+    background-color: #F1F1EC;
     border-radius: 2px;
-    border: 2px solid white;
+    border: 2px solid #45523E;
     letter-spacing: 2px;
     padding: 10px 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;
+    color: #45523E;
 }
 
 #carouselButton:hover {
-    background-color: #222831;
+    background-color: #45523E;
     transition: 0.4s;
-    transform: scale(1.1)
+    transform: scale(1.05);
+    color: white;
 }
 
 #contactMeButton {
-    background-color: transparent;
+    background-color: #F1F1EC;
     border-radius: 2px;
-    border: 2px solid #222831;
+    border: 2px solid #45523E;
     letter-spacing: 2px;
     padding: 10px 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;
-    color: #393e46;
+    color: #45523E;
 }
 
 #contactMeButton:hover {
-    background-color: #222831;
+    background-color: #45523E;
     transition: 0.4s;
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: white;
 }
 
@@ -80,6 +91,18 @@
 
 .card-img-top {
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     object-fit: cover;
+    border-radius: 0px !important;
+}
+
+.card-title {
+    font-weight: 600 !important;
+}
+
+#card {
+    height: 100%;
+    border-radius: 0px;
+    background-color: #F1F1EC;
+    color: #45523E;
 }
