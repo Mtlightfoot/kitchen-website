@@ -8,6 +8,7 @@ import Furniture from './pages/Furniture';
 import Pricing from './pages/Pricing';
 import ContactMe from "./pages/ContactMe";
 import OurWork from "./pages/OurWork";
+import Footer from "./components/Footer";
 
 // React imports
 import React from 'react';
@@ -32,6 +33,7 @@ function App() {
           <Route path="/OurWork" element={<OurWork />} />
           <Route path="/ContactMe" element={<ContactMe />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   )

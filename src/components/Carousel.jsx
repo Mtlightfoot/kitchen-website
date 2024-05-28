@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const styles = {
     carousel: {
-        height: '90vh',
+        height: '55vh',
         objectFit: 'contain'
     },
     carouselImg: {
