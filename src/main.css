@@ -91,6 +91,13 @@
     height: 250px;
 }
 
+.ourwork-banner {
+    background-image: url(/public/our-work-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
 .card-img-top {
     width: 100%;
     height: 40vh;
@@ -163,4 +170,8 @@
     color: white;
     margin: 0;
     padding: 10px;
+}
+
+#our-work-carousel {
+    height: 10vh;
 }
