@@ -21,9 +21,9 @@ function Home() {
             </div>
 
             <Container className='text-center'>
-                <Row className='mt-3 mb-5'>
+                <Row className='mt-3'>
                     <Col md={4} className='mb-3'>
-                        <Card className='mb-3' id='card-home'>
+                        <Card id='card-home'>
                             <div className="card-img-top-home">
                                 <div className="inner-box">
                                     <img src="../carpenter-icon.png" alt="An icon representing carpentry" />
@@ -39,7 +39,7 @@ function Home() {
                     </Col>
 
                     <Col md={4} className='mb-3'>
-                        <Card className='mb-3' id='card-home'>
+                        <Card id='card-home'>
                             <div className="card-img-top-home">
                                 <div className="inner-box">
                                     <img src="../forest-icon-2.png" alt="An icon representing carpentry" />
@@ -56,7 +56,7 @@ function Home() {
                     </Col>
 
                     <Col md={4} className='mb-3'>
-                        <Card className='mb-3' id='card-home'>
+                        <Card id='card-home'>
                             <div className="card-img-top-home">
                                 <div className="inner-box">
                                     <img src="../kitchen-icon.png" alt="An icon representing carpentry" />

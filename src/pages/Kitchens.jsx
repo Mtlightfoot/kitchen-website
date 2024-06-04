@@ -52,9 +52,9 @@ function Kitchens() {
                 </Card>
 
                 <Container>
-                    <Row className='mb-5'>
-                        <Col md={6}>
-                            <Card className='mb-3' id='card'>
+                    <Row>
+                        <Col md={6} className='mb-4'>
+                            <Card id='card'>
                                 <Card.Img className='.card-img-top' variant="top" src="../kitchen-pic-2.jpg" />
                                 <Card.Body>
                                     <Card.Title>Solid Wood Kitchens</Card.Title>
@@ -66,8 +66,8 @@ function Kitchens() {
                             </Card>
                         </Col>
 
-                        <Col md={6}>
-                            <Card className='mb-3' id='card'>
+                        <Col md={6} className='mb-4'>
+                            <Card id='card'>
                                 <Card.Img className='.card-img-top' variant="top" src="kitchen-pic-7.jpg" />
                                 <Card.Body>
                                     <Card.Title>Hand painted Kitchens</Card.Title>

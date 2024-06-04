@@ -38,7 +38,7 @@ function Furniture() {
             <Container style={styles.container} className='text-center'>
                 <div className="bedroom-banner"></div>
 
-                <Card style={styles.noBorder} className="text-center m-4">
+                <Card style={styles.noBorder} className="text-center m-3">
                     <Card.Body>
                         <Card.Title><h3>Bedrooms</h3></Card.Title>
                         <Card.Text>
@@ -51,9 +51,9 @@ function Furniture() {
                 </Card>
 
                 <Container>
-                    <Row className='mb-5'>
-                        <Col md={4}>
-                            <Card className='mb-3' id='card'>
+                    <Row>
+                        <Col md={4} className='mb-4'>
+                            <Card id='card'>
                                 <Card.Img className='.card-img-top' variant="top" src="../bedroom-pic-1.jpg" />
                                 <Card.Body>
                                     <Card.Title>Fitted Bedrooms</Card.Title>
@@ -66,8 +66,8 @@ function Furniture() {
                             </Card>
                         </Col>
 
-                        <Col md={4}>
-                            <Card className='mb-3' id='card'>
+                        <Col md={4} className='mb-4'>
+                            <Card id='card'>
                                 <Card.Img className='.card-img-top' variant="top" src="bedroom-pic-2.jpg" />
                                 <Card.Body>
                                     <Card.Title>Custom Office Furniture</Card.Title>
@@ -80,8 +80,8 @@ function Furniture() {
                             </Card>
                         </Col>
 
-                        <Col md={4}>
-                            <Card className='mb-3' id='card'>
+                        <Col md={4} className='mb-4'>
+                            <Card id='card'>
                                 <Card.Img className='.card-img-top' variant="top" src="bedroom-pic-3.jpg" />
                                 <Card.Body>
                                     <Card.Title>Custom Media Walls</Card.Title>
